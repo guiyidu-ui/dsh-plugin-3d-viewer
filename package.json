@@ -1,0 +1,47 @@
+{
+  "name": "dsh-plugin-3d-viewer",
+  "version": "1.1.0",
+  "description": "DSH 三维查看器插件：把助手消息里的 3d 代码块（或 [3d:路径] 链接）原地渲染成可旋转/缩放的 Three.js 视图，并在 DSH 右侧栏提供一个列出本会话模型的常驻预览面板。",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "testdata",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "three.js",
+    "3d",
+    "viewer",
+    "obj",
+    "gltf",
+    "glb",
+    "stl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guiyidu-ui/dsh-plugin-3d-viewer.git"
+  },
+  "homepage": "https://github.com/guiyidu-ui/dsh-plugin-3d-viewer#readme",
+  "bugs": {
+    "url": "https://github.com/guiyidu-ui/dsh-plugin-3d-viewer/issues"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "slots"
+      ]
+    }
+  }
+}
