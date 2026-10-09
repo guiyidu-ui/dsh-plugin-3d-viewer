@@ -1,0 +1,17 @@
+# 依赖与运行产物
+node_modules/
+*.log
+
+# 本机/编辑器
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# 备份与临时文件（历史版本、开发调试）
+*.bak
+*.bak-*
+*.tmp
+*.orig
+token.txt
+*.tar.gz
